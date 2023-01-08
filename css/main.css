@@ -513,6 +513,73 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-cyan-500 {
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-to: rgb(6 182 212 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-cyan-50 {
+  --tw-gradient-from: #ecfeff;
+  --tw-gradient-to: rgb(236 254 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-blue-500 {
+  --tw-gradient-to: #3b82f6;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
